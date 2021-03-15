@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>To-do list</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="todo.css">
+        <link rel="shortcut icon" href="img/logo.png">
+    </head>
+<body>
+       <div id="header"><p>To-do list</p></div> 
+       <span id="hdr"> Add Task</span>
+       <div id="list">
+            <div id="enterTask">
+            <input type="text" id="toAdd" >
+            <button class="addBtn" onclick="newElement()">Add</span></div>
+
+            <div id="task">
+                <template id="tempTask">
+                        <div class="taskList" id="task"> 
+                            <input class="check" type="checkbox">
+                            <span id="newElement"></span>
+                            <img id="trash" width="24px" src="img/delete.png"> 
+                        </div> 
+                </template>                            
+             </div>      
+
+            <script src="todo.js"></script>     
+    
+</body>
+</html>

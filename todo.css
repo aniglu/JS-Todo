@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+
+html, body {
+    margin: 0;
+    background-color: #ffffff;
+    height: 100%;
+    color: #000000;
+
+}
+
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    font-family: 'Segoe UI';
+}
+
+#header{
+    width: 100%;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI';
+   /* text-transform: uppercase;*/
+    font-size: 35px;
+    display: flex;
+    margin-top: 0;
+    position:fixed;
+    top:0px;       
+    border-bottom: 3px solid #672E98/* #bc13fe;*/
+    ;
+   /* -webkit-box-shadow: 0px 10px 21px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 21px -15px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 21px -15px rgba(0,0,0,0.75);*/
+}
+#enterTask{
+    width: 593px;
+    height: 119px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#hdr{
+    /*border-bottom: 1px solid #000000;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:161px;
+    position: fixed;
+    font-size: 25px;;
+}
+#toAdd{
+    width: 336px;
+    height: 36px;
+    margin-top: 5px; 
+    margin-bottom: 5px;   
+}
+
+#list{  
+    position: fixed;   
+    top:213px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 593px;
+    height: auto;
+    border: 1px solid #707070;
+}
+
+.taskList{
+    margin-top: 2px;
+    width: 593px;
+    height: 85px;
+    text-align: center;
+    border: 1px solid #707070; /*#D8D8D8;*/
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+.addBtn{
+    font-size: 20px;    
+    font-family: 'Segoe UI';
+    width: 136px;
+    height: 36px;
+    background-color: #ffffff;
+    /*color:#D8D8D8;*/
+   /* border: none;*/
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 1px transparent;
+    background-image: linear-gradient(to right, #ad5389, #3c1053),linear-gradient(to right, #ad5389, #3c1053),linear-gradient(to right, #ad5389, #3c1053),linear-gradient(to right, #ad5389, #3c1053);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+
+    
+ }
+ .addBtn:hover{
+     color:#8a2be2;
+ }
+    
+ .check{
+    margin-left: 20px;
+    margin-right: 18px;
+    
+ }
+input[type="checkbox"]:checked{
+     background: #672E98;
+ }
+.check:checked+ span{
+    text-decoration:line-through;
+}
+
+#trash{
+    position: absolute;
+    margin-left: 550px;
+    float: right;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+    
+    
+   
+  }
